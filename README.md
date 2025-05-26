@@ -1,6 +1,6 @@
 # Assignment-02
 
-## What is PostgreSQL?
+## 1. What is PostgreSQL?
 
 **উত্তর**
 PostgreSQL একটা  ওপেন  সোর্স  অবজেক্ট  relational database ম্যানেজমেন্ট  সিস্টেম ।  এটা  SQL ব্যবহার  করে  ডেটা  সংরক্ষণ, পরিচালনা ও পুনরুদ্ধার করে| 
@@ -12,7 +12,7 @@ PostgreSQL-এর বৈশিষ্ট্যসমূহঃ
 - ৫। এটা  JSON  ফরম্যাট  ডাটা সাপোর্ট করে 
 - ৬। একাধিক ব্যবহারকারী একসাথে ডেটার সাথে কাজ করলেও এটি কোনো সমস্যা ছাড়াই পরিচালনা করতে পারে। 
 
-## What is the purpose of a database schema in PostgreSQL?
+## 2. What is the purpose of a database schema in PostgreSQL?
 
 **উত্তর**
 Database Schema একটা  সুসজ্জিত কাঠামো  যা টেবিল , ভিউ , ফাংশন, ইনডেক্স, ট্রিগার ইত্যাদি একটি নির্দিষ্ট গ্রুপে সাজিয়ে রাখে | 
@@ -31,7 +31,7 @@ Database Schema-এর প্রধান উপাদানসমূহঃ
 - ৪। View  
 - ৫। Sequences , Function , Triggers  ইত্যাদি 
 
-## Explain the Primary Key and Foreign Key concepts in PostgreSQL.
+## 3. Explain the Primary Key and Foreign Key concepts in PostgreSQL.
 Primary Key হচ্ছে একটি ইউনিক শনাক্তকারী (unique identifier), যা একটি ডেটাবেজ টেবিলের প্রতিটি রেকর্ডকে (record) আলাদা করে চিহ্নিত করে। 
 
 Primary  কী  -এর বৈশিষ্ট্যসমূহঃ 
@@ -64,7 +64,7 @@ ON DELETE CASCADE) ;
 
 এখানে  rangers টেবিল  ranger_id  sightings  টেবিল  এ  ফরেন  কী  হিসাবে  কাজ  করে |
 
- ## How can you modify data using UPDATE statements? 
+ ## 4. How can you modify data using UPDATE statements? 
 
  **উত্তর**
 PostgreSQL-এ ডেটা পরিবর্তন করার জন্য UPDATE স্টেটমেন্ট ব্যবহার করা হয় | 
@@ -84,7 +84,7 @@ UPDATE species SET conservation_status='Historic'
 ```
 এখানে species  টেবিল  এর  conservation_status  set হবে যখন condition মিলবে 
 
-## How can you calculate aggregate functions like COUNT(), SUM(), and AVG() in PostgreSQL?
+## 5. How can you calculate aggregate functions like COUNT(), SUM(), and AVG() in PostgreSQL?
 
  **উত্তর**
 PostgreSQL-এ COUNT(), SUM(), এবং AVG() হচ্ছে ‌aggregate functions, যেগুলো অনেকগুলো রেকর্ড (row) এর উপর ভিত্তি করে একটি সংক্ষিপ্ত ফলাফল দেয় — যেমন মোট সংখ্যা, যোগফল, বা গড়।
